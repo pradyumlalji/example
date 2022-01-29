@@ -1,0 +1,97 @@
+.Header_right ul {
+  display: flex;
+  float: right;
+  align-items: center;
+  justify-items: center;
+  gap: 15px;
+}
+.Header_right ul li p {
+  font-size: 15px;
+}
+.ManasviButton {
+  position: relative;
+}
+.ManasviButton button {
+  width: 150px;
+  height: 45px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 2px;
+  padding-left: 12px;
+}
+
+.ManasviButton img {
+  position: absolute;
+  top: 4.5px;
+  left: 6px;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .Header_right ul {
+    display: flex;
+
+    align-items: center;
+    justify-items: center;
+    gap: 25px;
+  }
+
+  .ManasviButton button {
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 13px;
+    padding-top: 2px;
+    padding-left: 12px;
+  }
+  .ManasviButton img {
+    position: absolute;
+    top: 5.5px;
+    left: 6px;
+    width: 28px;
+    height: 28px;
+    border-radius: 35px;
+  }
+}
+@media only screen and (max-width: 991px){
+  .Header_right ul li p {
+
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .Header_right ul li p {
+    display: none;
+    font-size: 12px;
+  }
+
+
+  .ManasviButton button{
+    width: 100px;
+    height: 35px;
+  }
+
+  .ManasviButton img{
+    width: 28px;
+    height: 28px;
+    top: 2.5px;
+    left: 3px;
+ 
+  }
+  .ManasviButton button{
+    font-size: 12px;
+    padding-left: 20px;
+
+  }
+
+}
+
+

@@ -1,0 +1,31 @@
+.HeaderLeft {
+  /* display: inline-block; */
+  display: flex;
+  /* margin-bottom: 80px; */
+  align-items: center;
+  gap: 40px;
+  /* max-width: 585; */
+  /* width: 50%; */
+}
+
+.HeaderLeft p {
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 991px) {
+  .HeaderLeft p {
+    
+    font-size: 12px;
+
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .HeaderLeft p{
+    display: none;
+  }
+  .logoImg{
+    max-width: 100px;
+  }
+}
